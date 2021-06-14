@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class PointList {
 
+	//관리하는 용도임. 개념 확장시켜야함.
+	
 	//필드
 	private Point[] pArray;
 	private int crtPos;

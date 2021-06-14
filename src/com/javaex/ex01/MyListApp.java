@@ -3,6 +3,12 @@ package com.javaex.ex01;
 public class MyListApp {
 
 	public static void main(String[] args) {
+		//////////////////////////////////////////////
+		//포인트 관리
+		//////////////////////////////////////////////
+		System.out.println("Point 관리========================");
+		
+		
 		
 		//포인트를 관리하는 리스트(배열 대용)를 만든다.
 		PointList pList = new PointList();
@@ -32,6 +38,36 @@ public class MyListApp {
 			//System.out.println(pList.get(i));  --> toString랑 같음
 			System.out.println(pList.get(i).getX());
 		}
+		
+		
+		
+		
+		
+		//////////////////////////////////////////////
+		//포인트 관리
+		//////////////////////////////////////////////
+		System.out.println("Circle 관리========================");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
