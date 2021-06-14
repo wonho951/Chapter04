@@ -10,18 +10,18 @@ public class MyListApp {
 		
 		Point p00 = new Point(2, 2);
 		Point p01 = new Point(3, 3);
-		Point p02 = new Point(4, 4);
+		//Point p02 = new Point(4, 4);
 		
 		pList.add(p00);	//알아서 배열에 들어가게함. 배열 1개   0x111
 		pList.add(p01);	//배열2개
-		pList.add(p02);	//배열3개
+		//pList.add(p02);	//배열3개
 		
 		System.out.println(pList);
 		
-		/*
+		
 		System.out.println(pList.size());	// 3
 		
-		
+		/*
 		System.out.println(pList.get(1));	// int [x=3, y=3]
 
 		

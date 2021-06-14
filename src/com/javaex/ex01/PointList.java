@@ -26,6 +26,10 @@ public class PointList {
 	}
 
 
+	public int size() {
+		return crtPos;
+	}
+	
 
 	@Override
 	public String toString() {
