@@ -13,21 +13,22 @@ public class MyListApp {
 		Point p02 = new Point(3, 3);
 		
 		pList.add(p00);	//알아서 배열에 들어가게함.
-		pList.add(p01);
-		pList.add(p02);
+		pList.add(p01);	//배열2개
+		pList.add(p02);	//배열3개
+		
+		
+		System.out.println(pList.size());	// 3
+		
+		
+		System.out.println(pList.get(1));	// int [x=3, y=3]
+
+		
+		pList.remove(1);	// [1] 데이터 삭제 --> 배열2개
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		Point p03 = new Point(100, 100);
+		pList.add(p03);	//배열2개 됐다가 다시 3개되게끔.
 		
 		
 		
