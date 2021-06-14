@@ -64,12 +64,12 @@ public class MyListApp {
 		System.out.println(cList);
 		
 		
-		System.out.println(cList.size());	// 3
+		System.out.println(cList.size());	
 		
 		
-		System.out.println(cList.get(1).toString());	// int [x=3, y=3]
+		System.out.println(cList.get(1).toString());	
 		System.out.println(cList.get(1));	//toString이랑 같음.
-		System.out.println(cList.get(1).getRadius());	// 3
+		System.out.println(cList.get(1).getRadius());	
 
 		System.out.println("================================");
 		
