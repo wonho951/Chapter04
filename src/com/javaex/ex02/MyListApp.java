@@ -34,13 +34,20 @@ public class MyListApp {
 		cList.add(c02);
 		
 		
-		System.out.println(cList.get(0).toString());
+		//*************어떻게 해결하쉴?********************
+		//cList.add(p02); 원 리스트에 점이 들어와도 오류발생하지 않는다.--> 위험함.
+		//*********************************
 		
-		/*
+		//System.out.println(cList.get(0).toString());
+		
+		//((Circle)(cList.get(0))).getRadius();
+		
+		
+		
 		for (int i = 0; i < cList.size(); i++) {
 			System.out.println(cList.get(i));
 		}
-		*/
+		
 		
 		
 		
