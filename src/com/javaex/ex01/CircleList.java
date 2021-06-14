@@ -8,25 +8,25 @@ public class CircleList {
 	
 	//필드
 	private Circle[] cArray;
-	private int crtCcl;
+	private int crtPos;
 	
 	//생성자
 	public CircleList() {
 		super();
 		this.cArray = new Circle[3];
-		this.crtCcl = 0;
+		this.crtPos = 0;
 	}
 	
 	//메소드 g/s
 	
 	//메소드 - 일반
 	public void add(Circle circle) {
-		cArray[crtCcl] = circle;
-		crtCcl = crtCcl + 1;
+		cArray[crtPos] = circle;
+		crtPos = crtPos + 1;
 	}
 	
 	public int size() {
-		return crtCcl;
+		return crtPos;
 	}
 	
 	public Circle get(int index) {
@@ -35,7 +35,7 @@ public class CircleList {
 
 	@Override
 	public String toString() {
-		return "CircleList [cArray=" + Arrays.toString(cArray) + ", crtCcl=" + crtCcl + "]";
+		return "CircleList [cArray=" + Arrays.toString(cArray) + ", crtCcl=" + crtPos + "]";
 	}
 	
 	
