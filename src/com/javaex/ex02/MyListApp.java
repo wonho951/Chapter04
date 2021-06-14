@@ -9,7 +9,7 @@ public class MyListApp {
 		
 		Point p00 = new Point(1, 1);
 		Point p01 = new Point(2, 2);
-		Point p01 = new Point(3, 3);
+		Point p02 = new Point(3, 3);
 		
 		
 		pList.add(p00);
@@ -20,6 +20,8 @@ public class MyListApp {
 			System.out.println(pList.get(i));
 		}
 		
+		
+		
 		System.out.println("circle관리------------------");
 		MyList cList = new MyList();
 		
@@ -27,10 +29,18 @@ public class MyListApp {
 		Circle c01 = new Circle(10);
 		Circle c02 = new Circle(15);
 		
+		cList.add(c00);
+		cList.add(c01);
+		cList.add(c02);
 		
 		
+		System.out.println(cList.get(0).toString());
 		
-		
+		/*
+		for (int i = 0; i < cList.size(); i++) {
+			System.out.println(cList.get(i));
+		}
+		*/
 		
 		
 		

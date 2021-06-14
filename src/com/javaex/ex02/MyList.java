@@ -22,7 +22,7 @@ public class MyList {
 	public void add(Object object) {
 		//배열의 크기가변 로직생략
 		oArray[crtPos] = object;
-		crtPos = crtPos++;
+		crtPos = crtPos + 1;
 	}
 	
 	public int size() {
