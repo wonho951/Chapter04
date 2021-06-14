@@ -44,7 +44,7 @@ public class MyListApp {
 		
 		
 		//////////////////////////////////////////////
-		//포인트 관리
+		//원 관리
 		//////////////////////////////////////////////
 		System.out.println("Circle 관리========================");
 		
@@ -53,9 +53,9 @@ public class MyListApp {
 		CircleList cList = new CircleList();
 		
 		
-		Circle c00 = new Circle(2);
-		Circle c01 = new Circle(3);
-		Circle c02 = new Circle(4);
+		Circle c00 = new Circle(5);
+		Circle c01 = new Circle(10);
+		Circle c02 = new Circle(15);
 		
 		cList.add(c00);	//알아서 배열에 들어가게함. 배열 1개   0x111
 		cList.add(c01);	//배열2개
