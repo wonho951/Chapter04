@@ -49,8 +49,35 @@ public class MyListApp {
 		System.out.println("Circle 관리========================");
 		
 		
+		//포인트를 관리하는 리스트(배열 대용)를 만든다.
+		CircleList cList = new CircleList();
 		
 		
+		Circle c00 = new Circle(2);
+		Circle c01 = new Circle(3);
+		Circle c02 = new Circle(4);
+		
+		cList.add(c00);	//알아서 배열에 들어가게함. 배열 1개   0x111
+		cList.add(c01);	//배열2개
+		cList.add(c02);	//배열3개
+		
+		System.out.println(cList);
+		
+		
+		System.out.println(cList.size());	// 3
+		
+		
+		System.out.println(cList.get(1).toString());	// int [x=3, y=3]
+		System.out.println(cList.get(1));	//toString이랑 같음.
+		System.out.println(cList.get(1).getRadius());	// 3
+
+		System.out.println("================================");
+		
+		for (int i = 0; i < cList.size(); i++) {
+			//System.out.println(cList.get(i));  --> toString랑 같음
+			System.out.println(cList.get(i).getRadius());
+		}
+
 		
 		
 		
