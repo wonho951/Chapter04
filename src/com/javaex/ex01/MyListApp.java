@@ -10,31 +10,28 @@ public class MyListApp {
 		
 		Point p00 = new Point(2, 2);
 		Point p01 = new Point(3, 3);
-		//Point p02 = new Point(4, 4);
+		Point p02 = new Point(4, 4);
 		
 		pList.add(p00);	//알아서 배열에 들어가게함. 배열 1개   0x111
 		pList.add(p01);	//배열2개
-		//pList.add(p02);	//배열3개
+		pList.add(p02);	//배열3개
 		
 		System.out.println(pList);
 		
 		
 		System.out.println(pList.size());	// 3
 		
-		/*
-		System.out.println(pList.get(1));	// int [x=3, y=3]
+		
+		System.out.println(pList.get(1).toString());	// int [x=3, y=3]
+		System.out.println(pList.get(1));	//toString이랑 같음.
+		System.out.println(pList.get(1).getX());	// 3
 
+		System.out.println("================================");
 		
-		pList.remove(1);	// [1] 데이터 삭제 --> 배열2개
-		
-		
-		
-		Point p03 = new Point(100, 100);
-		pList.add(p03);	//배열2개 됐다가 다시 3개되게끔.
-		
-		
-		
-		
+		for (int i = 0; i < pList.size(); i++) {
+			//System.out.println(pList.get(i));  --> toString랑 같음
+			System.out.println(pList.get(i).getX());
+		}
 		
 		
 		

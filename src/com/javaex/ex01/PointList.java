@@ -11,7 +11,8 @@ public class PointList {
 	//생성자	
 	public PointList() {
 		super();
-		this.pArray = new Point[3];
+		//배열의 크기 가변, 로직 생략
+		this.pArray = new Point[3];	
 		crtPos = 0;
 	}
 
@@ -21,6 +22,7 @@ public class PointList {
 	
 	//메소드 - 일반
 	public void add(Point point) {
+		//배열의 크기 가변, 로직 생략
 		pArray[crtPos] = point;
 		crtPos = crtPos + 1;	//crtPos++ 과 같음.
 	}
@@ -28,6 +30,11 @@ public class PointList {
 
 	public int size() {
 		return crtPos;
+	}
+	
+	
+	public Point get(int index) {		
+		return pArray[index];
 	}
 	
 
