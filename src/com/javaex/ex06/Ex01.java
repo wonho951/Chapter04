@@ -48,11 +48,11 @@ public class Ex01 {
 		
 		System.out.println("중복된 숫자 시도---------------------");
 		//중복값 시도.
-		Integer i04 = 5;
-		iSet.add(i04);
+		Integer i04 = 5;	//일부러 중복값인 5 설정
+		iSet.add(i04);	//i04추가
 		
 		for (Integer num : iSet) {
-			System.out.println(num.toString());
+			System.out.println(num.toString());	//출력
 
 		}		
 		//결과적으로 출력했을때 중복체크되서 같은 수는 한개만 출력된다.
