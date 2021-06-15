@@ -52,6 +52,25 @@ public class PointApp {
 		
 		
 		
+		//p04 --> [1]에 담기.
+		pList.add(1, p04);	//p04를 맨앞에 넣을 수 있음. --> 배열 순서 관리 가능.
+		System.out.println(pList);
+		
+		
+		//p04 --> [1]에서 삭제.
+		pList.remove(1);	//배열에서 삭제를 해도 나머지 배열의 순서는 자동으로 정렬됨.
+		System.out.println(pList);
+		
+		
+		
+		
+		
+		//향상된 for문 --> 무조건 처음부터 끝까지갈때 쓰는애.기본 for문처럼 중간에 멈추기 불가.
+		for(Point ppp : pList) {
+			System.out.println(ppp.getX());	//pList에서 x의 값만 출력.
+		}
+		
+		
 		
 		
 		
