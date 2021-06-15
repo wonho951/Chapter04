@@ -1,6 +1,6 @@
 package com.javaex.ex03;
 
-public class MyList<T> {
+public class MyList<T> {	//제네릭 <> 사용, 보통은 대문자 하나 사용.
 
 	
 	//필드
