@@ -23,6 +23,7 @@ public class MyList<T> {
 		//배열의 크기가변 로직생략
 		oArray[crtPos] = object;
 		crtPos = crtPos + 1;
+		
 	}
 	
 	public int size() {
