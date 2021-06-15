@@ -101,7 +101,6 @@ public class MyListApp {
 		
 		
 		
-		
 		/*
 		//배열 사용시
 		Point[] pArray = new Point[2];	//이게 제일문제	
