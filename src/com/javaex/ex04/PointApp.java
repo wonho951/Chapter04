@@ -72,6 +72,9 @@ public class PointApp {
 		}
 		
 		
+		//pList 원 추가
+		Circle c01 = new Circle();
+		//pList.add(c01); ---> 오류남.제네릭으로 point만 줬기에 안됨.
 		
 		
 		
