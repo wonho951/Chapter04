@@ -63,11 +63,12 @@ public class PointApp {
 		
 		
 		
-		
-		
+		System.out.println("");
+		System.out.println("향상된 for문--------------------------------------");
 		//향상된 for문 --> 무조건 처음부터 끝까지갈때 쓰는애.기본 for문처럼 중간에 멈추기 불가.
 		for(Point ppp : pList) {
-			System.out.println(ppp.getX());	//pList에서 x의 값만 출력.
+			//System.out.println(ppp.getX());	pList에서 x의 값만 출력.
+			System.out.println(ppp);
 		}
 		
 		
