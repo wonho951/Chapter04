@@ -7,16 +7,7 @@ public class Ex02 {
 
 	public static void main(String[] args) {
 
-		/*
-		Set<Integer> lotto = new HashSet<Integer>();
-		
-		
-		Integer lott = (int)(Math.random()*45)+1;
-		
-		for (int i = 0; i <= 6; i++) {
-			System.out.println(lott);
-		}
-		*/
+
 		
 		//선생님 방법
 		//반복(숫자가 <=6때까지
