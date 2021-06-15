@@ -22,7 +22,7 @@ public class PointApp {
 		
 		pList.add(p03);
 		
-		
+		System.out.println("=======");
 		Point p = pList.get(1);
 		System.out.println(p.getX());
 		System.out.println(p.getY());
