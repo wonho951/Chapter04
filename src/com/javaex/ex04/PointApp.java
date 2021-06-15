@@ -11,6 +11,7 @@ public class PointApp {
 		Point p01 = new Point(2, 4);
 		Point p02 = new Point(3, 6);
 		Point p03 = new Point(4, 8);
+		Point p04 = new Point(5, 10);
 		
 		pList.add(p01);
 		System.out.println(pList.size());
@@ -39,7 +40,15 @@ public class PointApp {
 		}
 		
 		
+		System.out.println("----------------------------------------");
+		for (int i = 0; i < pList.size(); i++) {
+			Point pp = pList.get(i);	//변수를 굳이 만들지 않아도 밑에처럼하면 출력 가능.
+			System.out.println(pList.get(i).getX());	//x or y 하나만 찍어볼때는 사용가능.(여러개 찍을때는 pp.toString() 사용하거나 pp사용)
+		}
 		
+		
+		System.out.println("----------------------------------------");
+		System.out.println(pList.toString());
 		
 		
 		
