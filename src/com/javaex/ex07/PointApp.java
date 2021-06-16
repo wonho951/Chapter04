@@ -37,9 +37,9 @@ public class PointApp {
 		
 		pSet.add(p04);	//p04라는 중복값 추가 --> 패키지 06에 있는 ex01에 Integer는 중복을 체크해줌.
 						//equals 재정의? 주소값문제?
-		
+		System.out.println("-------------");
 		System.out.println(pSet.toString());
-		
+		System.out.println("-------------");
 
 		
 		//Point 비교
@@ -49,7 +49,7 @@ public class PointApp {
 		System.out.println(p01.equals(p04));	//equals() 로직비교
 		System.out.println(p01==p04);	//내용물 비교. 기본자료형이면 기본자료형 비교.주소비교
 		
-		//0x111   1234123412412341234--> HashCode() 주소만 알고
+		//0x111   1234123412412341234--> HashCode() 알고리즘에서 나온 중복되지 않는 숫자.(주소인척 하는놈)
 		
 		
 		//HashCode
@@ -57,6 +57,19 @@ public class PointApp {
 		System.out.println(p02.hashCode());
 		System.out.println(p03.hashCode());
 		System.out.println(p04.hashCode());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

@@ -50,9 +50,12 @@ public class Point {
 		}else {
 			return false;
 		}
+	}
+
+	@Override
+	public int hashCode() {
 		
-		
-	
+		return x+y ;
 	}
 	
 	
