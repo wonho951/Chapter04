@@ -43,11 +43,11 @@ public class PointApp {
 
 		
 		//Point 비교
-		System.out.println(p02.equals(p04));
-		System.out.println(p02==p04);
+		System.out.println(p02.equals(p04));	//
+		System.out.println(p02==p04);	//내용물 비교. 기본자료형이면 기본자료형 비교.주소비교
 		
 		System.out.println(p01.equals(p04));
-		
+		System.out.println(p01==p04);
 		
 		
 		
