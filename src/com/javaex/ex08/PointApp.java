@@ -47,6 +47,7 @@ public class PointApp {
 		
 		
 		for (String key : kyes) {
+			//System.out.println(pMap.get(key).getY());
 			System.out.println(pMap.get(key).toString());
 		}
 		
