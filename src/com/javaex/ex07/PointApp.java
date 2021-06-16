@@ -44,8 +44,12 @@ public class PointApp {
 		
 		//Point 비교
 		System.out.println(p02.equals(p04));
-		System.out.println(p01.equals(p04));
 		System.out.println(p02==p04);
+		
+		System.out.println(p01.equals(p04));
+		
+		
+		
 		
 	}
 
