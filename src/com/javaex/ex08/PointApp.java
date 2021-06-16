@@ -23,7 +23,7 @@ public class PointApp {
 		pMap.put("유재석", p03);
 		
 		
-		
+		System.out.println(pMap.size());
 		
 		
 	}
