@@ -49,8 +49,11 @@ public class PointApp {
 		System.out.println(p01.equals(p04));	//equals() 로직비교
 		System.out.println(p01==p04);	//내용물 비교. 기본자료형이면 기본자료형 비교.주소비교
 		
+		//0x111   1234123412412341234--> HashCode() 주소만 알고
 		
 		
+		//HashCode
+		System.out.println(p01.hashCode());
 	}
 
 }
