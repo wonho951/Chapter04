@@ -73,7 +73,7 @@ public class Point {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj)	//코드 한줄이면 {} 생략 가능. 하지만 비추천.
 			return true;
 		if (obj == null)
 			return false;
