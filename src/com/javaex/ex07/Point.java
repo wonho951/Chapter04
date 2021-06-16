@@ -55,7 +55,7 @@ public class Point {
 	@Override
 	public int hashCode() {
 		
-		return x+y + 13 ;	//--> 1차 hashcode에서 거르고 2차로 equals에서 거르는데 혹시 모르니까 수학적으로 뒤에 이상한 숫자 붙여서 더 거른다.(똑똑하누)
+		return x+y;// + 13 ;	//--> 1차 hashcode에서 거르고 2차로 equals에서 거르는데 혹시 모르니까 수학적으로 뒤에 이상한 숫자 붙여서 더 거른다.(똑똑하누)
 	}
 	
 	
