@@ -54,6 +54,9 @@ public class PointApp {
 		
 		//HashCode
 		System.out.println(p01.hashCode());
+		System.out.println(p02.hashCode());
+		System.out.println(p03.hashCode());
+		System.out.println(p04.hashCode());
 	}
 
 }
