@@ -19,7 +19,7 @@ public class PointApp {
 		Point p03 = new Point(3, 3);
 		
 		
-		pMap.put("정우성", p01);
+		pMap.put("정우성", p01);	//<>안의 자료형과 일치해야 함. Integer줬으면 숫자로 String줬으면 문자열로 ㅇㅋ?
 		pMap.put("이효리", p02);
 		pMap.put("유재석", p03);
 		
